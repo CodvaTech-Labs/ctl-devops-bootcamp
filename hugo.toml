@@ -1,4 +1,4 @@
-baseURL = 'https://codvatech-labs.github.io/'
+baseURL = 'https://codvatech-labs.github.io/ctl-devops-bootcamp/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
