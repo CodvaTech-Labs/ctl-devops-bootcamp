@@ -1,9 +1,9 @@
-baseURL = 'https://codvatech-labs.github.io/ctl-devops-bootcamp'
+baseURL = 'https://codvatech-labs.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'CodvaTech Labs DevOps BootCamp'
 
 # Change the default theme to be use when building the site with Hugo
-theme = "hugo-theme-relearn"
+theme = "hugo-theme-relearn-main"
 
 # For search functionality
 [outputs]
