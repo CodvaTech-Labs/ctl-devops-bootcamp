@@ -6,6 +6,7 @@ pre = "<b> 1.4 </b>"
 +++
 
 Jenkins follows a Master-Slave architecture, also known as a Controller-Agent architecture, where the Master controls the overall orchestration of builds and tasks, and Slaves (also referred to as Agents or Nodes) carry out the actual execution of jobs on different machines. This architecture allows for distributed and parallel execution of tasks, improving scalability, flexibility, and resource utilization. Here's a closer look at the Jenkins Master-Slave architecture:
+Jenkins follows a Master-Slave architecture, also known as a Controller-Agent architecture, where the Master controls the overall orchestration of builds and tasks, and Slaves (also referred to as Agents or Nodes) carry out the actual execution of jobs on different machines. This architecture allows for distributed and parallel execution of tasks, improving scalability, flexibility, and resource utilization. Here's a closer look at the Jenkins Master-Slave architecture:
 
 **1. Jenkins Master:**
 

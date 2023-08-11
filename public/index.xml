@@ -22,6 +22,14 @@
       <description>Terrafom Features This section covers: - Terraform</description>
     </item>
     <item>
+      <title>Jenkins</title>
+      <link>https://codvatech-labs.github.io/jenkins/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/index.html</guid>
+      <description>Jenkins This section covers:
+Jenkins Introduction Jenkins Installation on Linux EC2 Machine Jenkins Architecture Jenkins Master/Slave Setup Freestyle Job in Jenkins Setup Declarative Pipeline Job in Jenkins Setup Scripted Pipeline Job in Jenkins Scripted Vs Declarative Pipeline Jenkins Shared Library Jenkins - Slack Integration Use Case : Stop and Start EC2 using Jenkins Job Jenkins DevOps Interview Questions </description>
+    </item>
+    <item>
       <title>Cloud Computing AWS</title>
       <link>https://codvatech-labs.github.io/aws/index.html</link>
       <pubDate>Sat, 07 May 2022 17:53:25 +0530</pubDate>
@@ -33,13 +41,6 @@
       <link>https://codvatech-labs.github.io/linux/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://codvatech-labs.github.io/linux/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mavens</title>
-      <link>https://codvatech-labs.github.io/maven/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://codvatech-labs.github.io/maven/index.html</guid>
       <description></description>
     </item>
   </channel>

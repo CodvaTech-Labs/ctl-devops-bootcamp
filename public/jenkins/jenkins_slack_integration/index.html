@@ -6,9 +6,7 @@
     <meta name="generator" content="Hugo 0.112.3">
     <meta name="generator" content="Relearn 5.15.1+tip">
     <meta name="description" content="">
-    <title>CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp</title>
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp">
-    <link href="/index.json" rel="alternate" type="application/json" title="CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp">
+    <title>Jenkins Slack Integration :: CodvaTech Labs DevOps BootCamp</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1691786764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1691786764" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1691786764" rel="stylesheet">
@@ -40,86 +38,91 @@
       window.variants && variants.init( [ 'auto' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/index.html">
+  <body class="mobile-support html" data-url="/jenkins/jenkins_slack_integration/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/basics-of-networking/index.html" title="Basics of Networking (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/jenkins/jenkins_aws_ec2/index.html" title="Jenkins Use Case  (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <span class="nav nav-prev topbar-link"><i class="fa fa-chevron-left fa-fw"></i></span>
+            <a class="nav nav-prev topbar-link" href="/jenkins/jenkins_shared_library/index.html" title="Jenkins Shared Library (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
-            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">CodvaTechLabs DevOps BootCamp</span><meta itemprop="position" content="1"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">CodvaTechLabs DevOps BootCamp</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/jenkins/index.html"><span itemprop="name">Jenkins</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Jenkins Slack Integration</span><meta itemprop="position" content="3"></li>
             </ol>
-          </div>
-          <div class="default-animation progress">
-            <div class="toc-wrapper"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#codvatech-labs-devops-bootcamp">CodvaTech Labs DevOps BootCamp</a>
-      <ul>
-        <li><a href="#devops-tech-stack">DevOps Tech Stack</a></li>
-        <li><a href="#coming-soon">Coming Soon</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributors">Contributors</a></li>
-  </ul>
-</nav>
-            </div>
           </div>
         </div>
       </nav>
-      <main id="body-inner" class="highlightable home" tabindex="-1">
+      <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="home deprecated">
+          <article class="default">
             <header class="headline">
             </header>
+<h1 id="jenkins-slack-integration">Jenkins Slack Integration</h1>
 
-<h2 id="codvatech-labs-devops-bootcamp">CodvaTech Labs DevOps BootCamp</h2>
-<p>This documentation is designed for CodvaTech Labs DevOps BootCamp Course</p>
-<h3 id="devops-tech-stack">DevOps Tech Stack</h3>
-<p>DevOps BootCamp will be covering below Tech Stack</p>
+<p>Jenkins Slack integration allows you to receive notifications, updates, and alerts from your Jenkins pipelines directly in your Slack workspace. This integration enhances communication and collaboration within your team by keeping everyone informed about build and deployment statuses. To set up Jenkins Slack integration, you typically follow these steps:</p>
+<ol>
+<li>
+<p><strong>Install and Configure the Jenkins Slack Plugin:</strong></p>
 <ul>
-<li>Networking Core Concepets</li>
-<li>Linux Training</li>
-<li>AWS Core Services</li>
-<li>Basics of GIT and Github</li>
-<li>Infra As Code - Terraform</li>
-<li>Configuration Management - Ansible</li>
-<li>Jenkins</li>
-<li>Setup CI/CD Pipeline for Legacy tech stack using Jenkins , Ansible , Maven</li>
-<li>Basics of Docker</li>
-<li>AWS ECS Solution</li>
-<li>Setup CI/CD Piepline for Container based tech stack</li>
+<li>Log in to your Jenkins instance.</li>
+<li>Go to &ldquo;Manage Jenkins&rdquo; &gt; &ldquo;Manage Plugins.&rdquo;</li>
+<li>In the &ldquo;Available&rdquo; tab, search for the &ldquo;Slack Notification&rdquo; plugin.</li>
+<li>Install the plugin and restart Jenkins.</li>
 </ul>
-<h3 id="coming-soon">Coming Soon</h3>
-<p>We are working on adding below tech stack in our DevOps course</p>
+</li>
+<li>
+<p><strong>Configure Slack Config in Jenkins:</strong></p>
 <ul>
-<li>Basics of Azure</li>
-<li>Basics of Kubernates</li>
+<li>Click on Manage Jenkins -&gt; Confiugre</li>
+<li>Search for Slack and enter below details</li>
 </ul>
-<h2 id="contributors">Contributors</h2>
-<p>This documentation was made possible due to many contributions from the CodvaTech Labs</p>
-
-<div class="box notices cstyle default">
-  <div class="box-label"></div>
-  <div class="box-content">
-<p>A big shout out to CodvaTech Labs Team</p>
-  </div>
-</div>
-<p>Contributors &amp; Reviewers</p>
+</li>
+</ol>
+<pre tabindex="0"><code>Workspace Name- ctldevopssep22
+Channel ID - C04E59FA6UR
+Credentials(token id) - 5vxOE37X7oWRblfyqsFGBbf5
+</code></pre><ol start="3">
+<li>
+<p><strong>Configure Jenkins Slack Connectivity locally:</strong></p>
+</li>
+<li>
+<p><strong>Setup FreeStyle Job:</strong></p>
+</li>
+<li>
+<p><strong>Setup Pipeline Job:</strong></p>
+</li>
+</ol>
 <ul>
-<li>Nilesh G</li>
-<li>Mohan G</li>
+<li>Refer below code snippet - <a href="https://github.com/codvatechlabs/devops-bootcamp/blob/main/Jenkins/jenkins_declarative_pipeline.yaml" target="_blank">https://github.com/codvatechlabs/devops-bootcamp/blob/main/Jenkins/jenkins_declarative_pipeline.yaml</a></li>
 </ul>
+<pre tabindex="0"><code>stage(&#39;Slack Message&#39;) {
+            steps {
+                slackSend channel: &#39;#devops-alerts&#39;,
+                color: &#39;good&#39;,
+                message: &#34;*${currentBuild.currentResult}:* Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}&#34;
+                }
+}
+</code></pre><p><strong>Here are some benefits of Jenkins Slack integration:</strong></p>
+<ul>
+<li><strong>Real-time Updates:</strong> Receive instant notifications about build successes, failures, and other pipeline events.</li>
+<li><strong>Team Collaboration:</strong> Keep the entire team informed about pipeline statuses without leaving Slack.</li>
+<li><strong>Quick Insights:</strong> Get a quick overview of build progress and results.</li>
+<li><strong>Centralized Communication:</strong> Consolidate important build-related information in a single platform.</li>
+<li><strong>Customization:</strong> Customize notification messages and formats to match your team&rsquo;s preferences.</li>
+</ul>
+<p>Example Slack notification message:</p>
+<pre tabindex="0"><code>[SUCCESS] Jenkins Build #123 (my-project) - Build was successful!
+</code></pre><p>Remember that specific configurations might vary based on your Jenkins setup, Slack workspace settings, and requirements. Additionally, while the steps outlined above are generally accurate, it&rsquo;s advisable to refer to the latest documentation for the Jenkins Slack Notification plugin and Slack&rsquo;s official guides to ensure accuracy.</p>
 
             <footer class="footline">
 
@@ -234,7 +237,7 @@
           <li data-nav-id="/terraform/terraform_setup_macos/index.html" class=""><a class="padding" href="/terraform/terraform_setup_macos/index.html"><b> 1.4 </b>Configure Terraform - Mac OS</a></li>
           <li data-nav-id="/terraform/setup_ec2_terraform/index.html" class=""><a class="padding" href="/terraform/setup_ec2_terraform/index.html"><b> 1.5 </b>Terraform Setup EC2 Instance</a></li>
           <li data-nav-id="/terraform/terraform_commands/index.html" class=""><a class="padding" href="/terraform/terraform_commands/index.html"><b> 1.6 </b>Terraform Commands</a></li></ul></li>
-          <li data-nav-id="/jenkins/index.html" class=""><a class="padding" href="/jenkins/index.html"><b> </b>Jenkins</a><ul id="subsections-8c55a17daf2defeaed2eb441058a08c4" class="morespace">
+          <li data-nav-id="/jenkins/index.html" class="parent "><a class="padding" href="/jenkins/index.html"><b> </b>Jenkins</a><ul id="subsections-8c55a17daf2defeaed2eb441058a08c4" class="morespace">
           <li data-nav-id="/jenkins/jenkins_intro/index.html" class=""><a class="padding" href="/jenkins/jenkins_intro/index.html"><b> 1.1 </b>Jenkins Introduction </a></li>
           <li data-nav-id="/jenkins/jenkins_installation/index.html" class=""><a class="padding" href="/jenkins/jenkins_installation/index.html"><b> 1.2 </b>Jenkins Installation </a></li>
           <li data-nav-id="/jenkins/jenkins_architecture/index.html" class=""><a class="padding" href="/jenkins/jenkins_architecture/index.html"><b> 1.3 </b>Jenkins Architecture </a></li>
@@ -244,7 +247,7 @@
           <li data-nav-id="/jenkins/jenkins_scripted_pipeline/index.html" class=""><a class="padding" href="/jenkins/jenkins_scripted_pipeline/index.html"><b> 1.8 </b>Jenkins Scripted Pipeline Job </a></li>
           <li data-nav-id="/jenkins/jenkins_scripted_vs_declarative/index.html" class=""><a class="padding" href="/jenkins/jenkins_scripted_vs_declarative/index.html"><b> 1.9 </b>Jenkins Scripted Vs Declarataive</a></li>
           <li data-nav-id="/jenkins/jenkins_shared_library/index.html" class=""><a class="padding" href="/jenkins/jenkins_shared_library/index.html"><b> 2.0 </b>Jenkins Shared Library</a></li>
-          <li data-nav-id="/jenkins/jenkins_slack_integration/index.html" class=""><a class="padding" href="/jenkins/jenkins_slack_integration/index.html"><b> 2.1 </b>Jenkins Slack Integration</a></li>
+          <li data-nav-id="/jenkins/jenkins_slack_integration/index.html" class="active"><a class="padding" href="/jenkins/jenkins_slack_integration/index.html"><b> 2.1 </b>Jenkins Slack Integration</a></li>
           <li data-nav-id="/jenkins/jenkins_aws_ec2/index.html" class=""><a class="padding" href="/jenkins/jenkins_aws_ec2/index.html"><b> 2.2 </b>Jenkins Use Case </a></li>
           <li data-nav-id="/jenkins/jenkins_interview_questions/index.html" class=""><a class="padding" href="/jenkins/jenkins_interview_questions/index.html"><b> 2.3 </b>Jenkins Interview Questions </a></li></ul></li>
           <li data-nav-id="/aws/index.html" class=""><a class="padding" href="/aws/index.html"><b> </b>Cloud Computing AWS</a><ul id="subsections-de34e482c106c9ff8e93b049591bdea4" class="morespace">

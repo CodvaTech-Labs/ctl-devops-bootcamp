@@ -6,9 +6,7 @@
     <meta name="generator" content="Hugo 0.112.3">
     <meta name="generator" content="Relearn 5.15.1+tip">
     <meta name="description" content="">
-    <title>CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp</title>
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp">
-    <link href="/index.json" rel="alternate" type="application/json" title="CodvaTechLabs DevOps BootCamp :: CodvaTech Labs DevOps BootCamp">
+    <title>Jenkins Use Case  :: CodvaTech Labs DevOps BootCamp</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1691786764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1691786764" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1691786764" rel="stylesheet">
@@ -40,17 +38,17 @@
       window.variants && variants.init( [ 'auto' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/index.html">
+  <body class="mobile-support html" data-url="/jenkins/jenkins_aws_ec2/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/basics-of-networking/index.html" title="Basics of Networking (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/jenkins/jenkins_interview_questions/index.html" title="Jenkins Interview Questions  (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <span class="nav nav-prev topbar-link"><i class="fa fa-chevron-left fa-fw"></i></span>
+            <a class="nav nav-prev topbar-link" href="/jenkins/jenkins_slack_integration/index.html" title="Jenkins Slack Integration (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
@@ -58,68 +56,87 @@
             </span>
             <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">CodvaTechLabs DevOps BootCamp</span><meta itemprop="position" content="1"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">CodvaTechLabs DevOps BootCamp</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/jenkins/index.html"><span itemprop="name">Jenkins</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Jenkins Use Case </span><meta itemprop="position" content="3"></li>
             </ol>
           </div>
           <div class="default-animation progress">
             <div class="toc-wrapper"><nav id="TableOfContents">
   <ul>
-    <li><a href="#codvatech-labs-devops-bootcamp">CodvaTech Labs DevOps BootCamp</a>
-      <ul>
-        <li><a href="#devops-tech-stack">DevOps Tech Stack</a></li>
-        <li><a href="#coming-soon">Coming Soon</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#use-case--stop--start-aws-ec2-using-jenkins">Use Case : Stop | Start AWS EC2 using Jenkins</a></li>
   </ul>
 </nav>
             </div>
           </div>
         </div>
       </nav>
-      <main id="body-inner" class="highlightable home" tabindex="-1">
+      <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="home deprecated">
+          <article class="default">
             <header class="headline">
             </header>
+<h1 id="jenkins-use-case">Jenkins Use Case </h1>
 
-<h2 id="codvatech-labs-devops-bootcamp">CodvaTech Labs DevOps BootCamp</h2>
-<p>This documentation is designed for CodvaTech Labs DevOps BootCamp Course</p>
-<h3 id="devops-tech-stack">DevOps Tech Stack</h3>
-<p>DevOps BootCamp will be covering below Tech Stack</p>
+<h2 id="use-case--stop--start-aws-ec2-using-jenkins">Use Case : Stop | Start AWS EC2 using Jenkins</h2>
+<p>To stop and start an EC2 instance using a Jenkins Freestyle job, you can utilize the AWS Command Line Interface (AWS CLI) along with shell commands in your Jenkins job configuration. Here&rsquo;s how you can achieve this:</p>
+<ol>
+<li><strong>Install AWS CLI on Jenkins Server:</strong>
+If the AWS CLI is not already installed on your Jenkins server, you&rsquo;ll need to install it. You can follow the official AWS CLI installation guide for your specific operating system: <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html" target="_blank">Installing the AWS CLI</a></li>
+</ol>
+<pre tabindex="0"><code>yum install aws-cli
+aws --version
+</code></pre><ol start="2">
+<li><strong>Configure AWS Credentials:</strong></li>
+</ol>
 <ul>
-<li>Networking Core Concepets</li>
-<li>Linux Training</li>
-<li>AWS Core Services</li>
-<li>Basics of GIT and Github</li>
-<li>Infra As Code - Terraform</li>
-<li>Configuration Management - Ansible</li>
-<li>Jenkins</li>
-<li>Setup CI/CD Pipeline for Legacy tech stack using Jenkins , Ansible , Maven</li>
-<li>Basics of Docker</li>
-<li>AWS ECS Solution</li>
-<li>Setup CI/CD Piepline for Container based tech stack</li>
+<li>Create New IAM Role with EC2 Admistrative Permission</li>
+<li>Attach newly created role to Jenkins Server</li>
 </ul>
-<h3 id="coming-soon">Coming Soon</h3>
-<p>We are working on adding below tech stack in our DevOps course</p>
+<ol start="3">
+<li>
+<p><strong>Create a Jenkins Freestyle Job:</strong></p>
 <ul>
-<li>Basics of Azure</li>
-<li>Basics of Kubernates</li>
+<li>Log in to your Jenkins instance.</li>
+<li>Click &ldquo;New Item&rdquo; to create a new Freestyle project.</li>
+<li>Give the job a name and select the appropriate configuration options.</li>
 </ul>
-<h2 id="contributors">Contributors</h2>
-<p>This documentation was made possible due to many contributions from the CodvaTech Labs</p>
-
-<div class="box notices cstyle default">
-  <div class="box-label"></div>
-  <div class="box-content">
-<p>A big shout out to CodvaTech Labs Team</p>
-  </div>
-</div>
-<p>Contributors &amp; Reviewers</p>
+</li>
+<li>
+<p><strong>Configure Build Steps:</strong></p>
 <ul>
-<li>Nilesh G</li>
-<li>Mohan G</li>
+<li>Under the &ldquo;Build&rdquo; section, add build steps to execute AWS CLI commands.</li>
+<li>Use shell commands to run AWS CLI commands for stopping and starting instances.</li>
 </ul>
+</li>
+<li>
+<p><strong>Add Shell Commands for Stopping and Starting EC2 Instances:</strong></p>
+<ul>
+<li>For stopping an instance:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Replace INSTANCE_ID with the actual instance ID</span>
+</span></span><span style="display:flex;"><span>aws ec2 stop-instances --instance-ids INSTANCE_ID
+</span></span></code></pre></div></li>
+<li>For starting an instance:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Replace INSTANCE_ID with the actual instance ID</span>
+</span></span><span style="display:flex;"><span>aws ec2 start-instances --instance-ids INSTANCE_ID
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Save the Job Configuration:</strong></p>
+<ul>
+<li>After configuring the build steps, click &ldquo;Save&rdquo; to save the job configuration.</li>
+</ul>
+</li>
+<li>
+<p><strong>Run the Jenkins Job:</strong></p>
+<ul>
+<li>Once the job is saved, you can manually trigger it by clicking &ldquo;Build Now.&rdquo;</li>
+<li>The job will execute the shell commands to stop or start the specified EC2 instance.</li>
+</ul>
+</li>
+</ol>
+<p>Make sure to replace <code>INSTANCE_ID</code> with the actual instance ID you want to stop or start.</p>
 
             <footer class="footline">
 
@@ -234,7 +251,7 @@
           <li data-nav-id="/terraform/terraform_setup_macos/index.html" class=""><a class="padding" href="/terraform/terraform_setup_macos/index.html"><b> 1.4 </b>Configure Terraform - Mac OS</a></li>
           <li data-nav-id="/terraform/setup_ec2_terraform/index.html" class=""><a class="padding" href="/terraform/setup_ec2_terraform/index.html"><b> 1.5 </b>Terraform Setup EC2 Instance</a></li>
           <li data-nav-id="/terraform/terraform_commands/index.html" class=""><a class="padding" href="/terraform/terraform_commands/index.html"><b> 1.6 </b>Terraform Commands</a></li></ul></li>
-          <li data-nav-id="/jenkins/index.html" class=""><a class="padding" href="/jenkins/index.html"><b> </b>Jenkins</a><ul id="subsections-8c55a17daf2defeaed2eb441058a08c4" class="morespace">
+          <li data-nav-id="/jenkins/index.html" class="parent "><a class="padding" href="/jenkins/index.html"><b> </b>Jenkins</a><ul id="subsections-8c55a17daf2defeaed2eb441058a08c4" class="morespace">
           <li data-nav-id="/jenkins/jenkins_intro/index.html" class=""><a class="padding" href="/jenkins/jenkins_intro/index.html"><b> 1.1 </b>Jenkins Introduction </a></li>
           <li data-nav-id="/jenkins/jenkins_installation/index.html" class=""><a class="padding" href="/jenkins/jenkins_installation/index.html"><b> 1.2 </b>Jenkins Installation </a></li>
           <li data-nav-id="/jenkins/jenkins_architecture/index.html" class=""><a class="padding" href="/jenkins/jenkins_architecture/index.html"><b> 1.3 </b>Jenkins Architecture </a></li>
@@ -245,7 +262,7 @@
           <li data-nav-id="/jenkins/jenkins_scripted_vs_declarative/index.html" class=""><a class="padding" href="/jenkins/jenkins_scripted_vs_declarative/index.html"><b> 1.9 </b>Jenkins Scripted Vs Declarataive</a></li>
           <li data-nav-id="/jenkins/jenkins_shared_library/index.html" class=""><a class="padding" href="/jenkins/jenkins_shared_library/index.html"><b> 2.0 </b>Jenkins Shared Library</a></li>
           <li data-nav-id="/jenkins/jenkins_slack_integration/index.html" class=""><a class="padding" href="/jenkins/jenkins_slack_integration/index.html"><b> 2.1 </b>Jenkins Slack Integration</a></li>
-          <li data-nav-id="/jenkins/jenkins_aws_ec2/index.html" class=""><a class="padding" href="/jenkins/jenkins_aws_ec2/index.html"><b> 2.2 </b>Jenkins Use Case </a></li>
+          <li data-nav-id="/jenkins/jenkins_aws_ec2/index.html" class="active"><a class="padding" href="/jenkins/jenkins_aws_ec2/index.html"><b> 2.2 </b>Jenkins Use Case </a></li>
           <li data-nav-id="/jenkins/jenkins_interview_questions/index.html" class=""><a class="padding" href="/jenkins/jenkins_interview_questions/index.html"><b> 2.3 </b>Jenkins Interview Questions </a></li></ul></li>
           <li data-nav-id="/aws/index.html" class=""><a class="padding" href="/aws/index.html"><b> </b>Cloud Computing AWS</a><ul id="subsections-de34e482c106c9ff8e93b049591bdea4" class="morespace">
           <li data-nav-id="/aws/iam/index.html" class="alwaysopen"><a class="padding" href="/aws/iam/index.html"><b> </b>IAM - Administration</a><ul id="subsections-d2db643a7f51260afe1eec04e5b67862" class="morespace">

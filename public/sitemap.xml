@@ -28,6 +28,9 @@
     <loc>https://codvatech-labs.github.io/terraform/index.html</loc>
   </url>
   <url>
+    <loc>https://codvatech-labs.github.io/jenkins/index.html</loc>
+  </url>
+  <url>
     <loc>https://codvatech-labs.github.io/aws/index.html</loc>
     <lastmod>2022-05-07T17:53:25+05:30</lastmod>
   </url>
@@ -50,13 +53,46 @@
     <loc>https://codvatech-labs.github.io/linux/linux_basic_commands/index.html</loc>
   </url>
   <url>
-    <loc>https://codvatech-labs.github.io/maven/maven_intro/index.html</loc>
-  </url>
-  <url>
     <loc>https://codvatech-labs.github.io/basics-of-networking/diff_tcp_vs_udp/index.html</loc>
   </url>
   <url>
     <loc>https://codvatech-labs.github.io/basics-of-networking/dns_server/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_intro/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_installation/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_architecture/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_master_slave/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_freestyle/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_declarative_pipeline_jobs/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_scripted_pipeline/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_scripted_vs_declarative/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_shared_library/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_slack_integration/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_aws_ec2/index.html</loc>
+  </url>
+  <url>
+    <loc>https://codvatech-labs.github.io/jenkins/jenkins_interview_questions/index.html</loc>
   </url>
   <url>
     <loc>https://codvatech-labs.github.io/index.html</loc>
@@ -67,9 +103,6 @@
   </url>
   <url>
     <loc>https://codvatech-labs.github.io/linux/index.html</loc>
-  </url>
-  <url>
-    <loc>https://codvatech-labs.github.io/maven/index.html</loc>
   </url>
   <url>
     <loc>https://codvatech-labs.github.io/tags/index.html</loc>

@@ -31,6 +31,7 @@ Credentials(token id) - 5vxOE37X7oWRblfyqsFGBbf5
 
 5. **Setup Pipeline Job:**
 - Refer below code snippet - https://github.com/codvatechlabs/devops-bootcamp/blob/main/Jenkins/jenkins_declarative_pipeline.yaml
+
 ```
 stage('Slack Message') {
             steps {

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on CodvaTech Labs DevOps BootCamp</title>
+    <link>https://codvatech-labs.github.io/jenkins/index.html</link>
+    <description>Recent content in Jenkins on CodvaTech Labs DevOps BootCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://codvatech-labs.github.io/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jenkins Introduction </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_intro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_intro/index.html</guid>
+      <description>Certainly! Here&amp;rsquo;s an introduction for a Jenkins presentation:
+Introduction to Jenkins: Powering Continuous Integration and Continuous Delivery
+What is Jenkins?
+At its core, Jenkins is an open-source automation server. But it&amp;rsquo;s much more than that. It&amp;rsquo;s a tool that enables developers to automate a wide range of tasks in the software development lifecycle, from building and testing code changes to deploying applications to various environments.
+The Role of Jenkins in DevOps and CI/CD</description>
+    </item>
+    <item>
+      <title>Jenkins Installation </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_installation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_installation/index.html</guid>
+      <description>Installing Jenkins on an AWS Linux 2 machine involves a few steps, including setting up a Java runtime environment, adding the Jenkins repository, installing Jenkins, and starting the Jenkins service. Here&amp;rsquo;s a step-by-step guide:
+1. Connect to Your AWS Linux 2 Instance: Use SSH to connect to your AWS Linux 2 instance using the terminal.
+2. Update the System: Before proceeding, update the package repositories and installed packages:
+sudo yum update 3.</description>
+    </item>
+    <item>
+      <title>Jenkins Architecture </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_architecture/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_architecture/index.html</guid>
+      <description>Jenkins architecture is designed to provide a flexible and extensible platform for automating various aspects of the software development lifecycle, particularly Continuous Integration (CI) and Continuous Delivery (CD) processes. It consists of several components that work together to facilitate building, testing, and deploying software. Let&amp;rsquo;s explore the key components of Jenkins architecture:
+1. Jenkins Master: The Jenkins Master is the central controller that manages and coordinates the entire Jenkins environment. It handles user requests, schedules and triggers builds, manages nodes, and provides a web-based interface for users to interact with Jenkins.</description>
+    </item>
+    <item>
+      <title>Jenkins Master Slave Architecture </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_master_slave/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_master_slave/index.html</guid>
+      <description>Jenkins follows a Master-Slave architecture, also known as a Controller-Agent architecture, where the Master controls the overall orchestration of builds and tasks, and Slaves (also referred to as Agents or Nodes) carry out the actual execution of jobs on different machines. This architecture allows for distributed and parallel execution of tasks, improving scalability, flexibility, and resource utilization. Here&amp;rsquo;s a closer look at the Jenkins Master-Slave architecture: Jenkins follows a Master-Slave architecture, also known as a Controller-Agent architecture, where the Master controls the overall orchestration of builds and tasks, and Slaves (also referred to as Agents or Nodes) carry out the actual execution of jobs on different machines.</description>
+    </item>
+    <item>
+      <title>Jenkins FreeStyle Job </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_freestyle/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_freestyle/index.html</guid>
+      <description>A Jenkins Freestyle job, also known as a FreeStyle project, is a type of build job in Jenkins that allows you to create and configure custom build and automation tasks without being restricted by a predefined pipeline structure. It&amp;rsquo;s one of the simplest and most straightforward ways to define and execute build processes in Jenkins.
+In a Freestyle job, you have the flexibility to configure build steps, triggers, source code management, build parameters, post-build actions, and more using the Jenkins web interface.</description>
+    </item>
+    <item>
+      <title>Jenkins Declarative Pipeline Job </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_declarative_pipeline_jobs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_declarative_pipeline_jobs/index.html</guid>
+      <description>Jenkins Declarative Pipeline is a domain-specific language extension for defining continuous delivery pipelines in a more structured and simpler manner. It provides a set of predefined, easy-to-use syntax constructs that allow you to define your pipeline&amp;rsquo;s structure, stages, steps, and other configurations using a declarative approach. This makes it easier for both beginners and experienced users to create and manage complex delivery pipelines.
+Here&amp;rsquo;s an overview of key concepts and features of Jenkins Declarative Pipeline:</description>
+    </item>
+    <item>
+      <title>Jenkins Scripted Pipeline Job </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_scripted_pipeline/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_scripted_pipeline/index.html</guid>
+      <description>Jenkins Scripted Pipeline is a more flexible and powerful way to define complex continuous delivery pipelines using Groovy scripting. Unlike the Declarative Pipeline, which focuses on a structured and simpler syntax, the Scripted Pipeline allows you to write custom Groovy code to define every aspect of your pipeline&amp;rsquo;s behavior. This makes it suitable for highly customized or intricate build and deployment processes.
+Here are the key characteristics and features of Jenkins Scripted Pipeline:</description>
+    </item>
+    <item>
+      <title>Jenkins Scripted Vs Declarataive</title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_scripted_vs_declarative/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_scripted_vs_declarative/index.html</guid>
+      <description>Here&amp;rsquo;s a comparison of Jenkins Scripted Pipeline and Declarative Pipeline in a table format:
+Feature Scripted Pipeline Declarative Pipeline Syntax Approach Groovy scripting with full flexibility Predefined structured syntax Stages and Steps Define using custom Groovy scripting Define using predefined directives Agent Configuration node or docker blocks for agent selection agent directive for agent configuration Environment Variables Custom Groovy code for environment variables environment directive Conditional Execution Full Groovy control using if, switch, etc.</description>
+    </item>
+    <item>
+      <title>Jenkins Shared Library</title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_shared_library/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_shared_library/index.html</guid>
+      <description>A Jenkins Shared Library is a powerful feature that allows you to define and manage common code, functions, and steps that can be shared across multiple Jenkins pipelines. It&amp;rsquo;s an excellent way to promote code reusability, maintain consistency, and improve the organization and maintenance of your Jenkins pipelines. Shared Libraries are particularly useful for managing complex build logic, custom steps, and integrations with external tools.
+Here&amp;rsquo;s how a Jenkins Shared Library works:</description>
+    </item>
+    <item>
+      <title>Jenkins Slack Integration</title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_slack_integration/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_slack_integration/index.html</guid>
+      <description>Jenkins Slack integration allows you to receive notifications, updates, and alerts from your Jenkins pipelines directly in your Slack workspace. This integration enhances communication and collaboration within your team by keeping everyone informed about build and deployment statuses. To set up Jenkins Slack integration, you typically follow these steps:
+Install and Configure the Jenkins Slack Plugin:
+Log in to your Jenkins instance. Go to &amp;ldquo;Manage Jenkins&amp;rdquo; &amp;gt; &amp;ldquo;Manage Plugins.&amp;rdquo; In the &amp;ldquo;Available&amp;rdquo; tab, search for the &amp;ldquo;Slack Notification&amp;rdquo; plugin.</description>
+    </item>
+    <item>
+      <title>Jenkins Use Case </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_aws_ec2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_aws_ec2/index.html</guid>
+      <description>Use Case : Stop | Start AWS EC2 using Jenkins To stop and start an EC2 instance using a Jenkins Freestyle job, you can utilize the AWS Command Line Interface (AWS CLI) along with shell commands in your Jenkins job configuration. Here&amp;rsquo;s how you can achieve this:
+Install AWS CLI on Jenkins Server: If the AWS CLI is not already installed on your Jenkins server, you&amp;rsquo;ll need to install it. You can follow the official AWS CLI installation guide for your specific operating system: Installing the AWS CLI yum install aws-cli aws --version Configure AWS Credentials: Create New IAM Role with EC2 Admistrative Permission Attach newly created role to Jenkins Server Create a Jenkins Freestyle Job:</description>
+    </item>
+    <item>
+      <title>Jenkins Interview Questions </title>
+      <link>https://codvatech-labs.github.io/jenkins/jenkins_interview_questions/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/jenkins/jenkins_interview_questions/index.html</guid>
+      <description>Absolutely! Here&amp;rsquo;s a list of 50 Jenkins DevOps interview questions along with their answers to help you prepare:
+Jenkins Basics:
+Q: What is Jenkins? A: Jenkins is an open-source automation server that facilitates Continuous Integration and Continuous Delivery (CI/CD) processes.
+Q: Explain the difference between a Jenkins Master and a Jenkins Slave. A: The Jenkins Master manages builds, scheduling, and user interactions. Jenkins Slaves perform build tasks as directed by the Master.</description>
+    </item>
+  </channel>
+</rss>
