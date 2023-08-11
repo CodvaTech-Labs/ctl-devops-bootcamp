@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infra As Code Terraform on CodvaTech Labs DevOps BootCamp</title>
+    <link>https://codvatech-labs.github.io/terraform/index.html</link>
+    <description>Recent content in Infra As Code Terraform on CodvaTech Labs DevOps BootCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://codvatech-labs.github.io/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure AWS CLI - Windows</title>
+      <link>https://codvatech-labs.github.io/terraform/cli_setup_windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/cli_setup_windows/index.html</guid>
+      <description>Setup AWS CLI Follow below steps for installation of AWS CLI on Windows Operating System
+Verify Python installation: AWS CLI requires Python to be installed on your Windows laptop. Open the Command Prompt by searching for &amp;ldquo;Command Prompt&amp;rdquo; in the Windows Start menu.
+Then, type the following command and press Enter to check if Python is installed:
+python --version If Python is not installed, download and install the latest version of Python from the official website (https://www.</description>
+    </item>
+    <item>
+      <title>Configure AWS CLI - Mac OS</title>
+      <link>https://codvatech-labs.github.io/terraform/cli_setup_macos/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/cli_setup_macos/index.html</guid>
+      <description>Setup AWS CLI To set up the AWS Command Line Interface (CLI) on a MacBook, you can follow these steps:
+Install Python: AWS CLI requires Python to be installed on your MacBook. By default, macOS comes with a pre-installed version of Python. Open the Terminal application (you can find it in the &amp;ldquo;Utilities&amp;rdquo; folder within &amp;ldquo;Applications&amp;rdquo;) and run the following command to check if Python is installed: python --version If Python is not installed, you can download and install it from the official Python website (https://www.</description>
+    </item>
+    <item>
+      <title>Configure Terraform - Windows</title>
+      <link>https://codvatech-labs.github.io/terraform/terraform_setup_windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/terraform_setup_windows/index.html</guid>
+      <description>To install Terraform on a Windows system, you can follow these steps:
+Download the Terraform binary:
+Open a web browser and go to the Terraform website at https://www.terraform.io/downloads.html. Scroll down to the &amp;ldquo;Terraform Core&amp;rdquo; section and locate the Windows version. Click on the appropriate 64-bit or 32-bit download link depending on your system architecture. This will download a ZIP file containing the Terraform binary. Extract the Terraform binary:
+Locate the downloaded ZIP file, right-click on it, and select &amp;ldquo;Extract All&amp;rdquo; from the context menu.</description>
+    </item>
+    <item>
+      <title>Configure Terraform - Mac OS</title>
+      <link>https://codvatech-labs.github.io/terraform/terraform_setup_macos/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/terraform_setup_macos/index.html</guid>
+      <description>To install Terraform on macOS using Homebrew, you can follow these steps:
+Open the Terminal application. You can find it in the &amp;ldquo;Utilities&amp;rdquo; folder within the &amp;ldquo;Applications&amp;rdquo; folder.
+Install Homebrew (if not already installed): In the Terminal, paste the following command and press Enter:
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; This command will install Homebrew, a package manager for macOS.
+Install Terraform: In the Terminal, run the following command to install Terraform using Homebrew: brew install terraform This command will download and install the latest version of Terraform from the Homebrew repository.</description>
+    </item>
+    <item>
+      <title>Terraform Setup EC2 Instance</title>
+      <link>https://codvatech-labs.github.io/terraform/setup_ec2_terraform/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/setup_ec2_terraform/index.html</guid>
+      <description>Problem Statement : Setup EC2 instance using Terraform with below specifications. Region : Mumbai Subnet ID : subnet-6f19ee04 (AZ Name : ap-south-1a) Key Name : devops2022.pem Security Group : allow http port(Port -80) to everyone (0.0.0.0/0) User Data: #!/bin/bash yum update -y yum install -y httpd systemctl start httpd.service systemctl enable httpd.service echo &amp;#34;Welcome to Terraform Demo!!!, I am $(hostname -f) hosted by Terraform&amp;#34; &amp;gt; /var/www/html/index.html Create first terraform code in VS Code as below provider &amp;#34;aws&amp;#34; { region = &amp;#34;ap-south-1&amp;#34; } resource &amp;#34;aws_instance&amp;#34; &amp;#34;ec2_demo&amp;#34; { ami = &amp;#34;ami-079b5e5b3971bd10d&amp;#34; instance_type = &amp;#34;t2.</description>
+    </item>
+    <item>
+      <title>Terraform Commands</title>
+      <link>https://codvatech-labs.github.io/terraform/terraform_commands/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/terraform/terraform_commands/index.html</guid>
+      <description>The command line interface to Terraform is via the terraform command, which accepts a variety of subcommands such as terraform init or terraform plan. terraform help : Terraform has a built-in help system that can be accessed from the command line for commands that you are not familiar with, or want to learn more about. You can get specific help for any specific command, use the -help option with the relevant subcommand.</description>
+    </item>
+  </channel>
+</rss>

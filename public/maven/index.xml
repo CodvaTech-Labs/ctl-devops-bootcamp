@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mavens on CodvaTech Labs DevOps BootCamp</title>
+    <link>https://codvatech-labs.github.io/maven/index.html</link>
+    <description>Recent content in Mavens on CodvaTech Labs DevOps BootCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://codvatech-labs.github.io/maven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Basic Commands</title>
+      <link>https://codvatech-labs.github.io/maven/maven_intro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/maven/maven_intro/index.html</guid>
+      <description>Command Description Example(s) ls List directory contents ls cd Change directory cd /var/log pwd Print working directory pwd mkdir Create a directory mkdir mydir rm Remove files or directories rm myfile.txt cp Copy files and directories cp file1.txt file2.txt mv Move or rename files and directories mv oldname.txt newname.txt touch Create an empty file touch myfile.txt cat Concatenate and display file content cat myfile.txt grep Search for patterns in files grep &amp;ldquo;pattern&amp;rdquo; myfile.</description>
+    </item>
+  </channel>
+</rss>

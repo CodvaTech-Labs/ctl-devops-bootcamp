@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics of Networking on CodvaTech Labs DevOps BootCamp</title>
+    <link>https://codvatech-labs.github.io/basics-of-networking/index.html</link>
+    <description>Recent content in Basics of Networking on CodvaTech Labs DevOps BootCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://codvatech-labs.github.io/basics-of-networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Conncept</title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/networking_concepts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/networking_concepts/index.html</guid>
+      <description>Networking Concepts Concept Explanation Example IP Address A unique numerical label assigned to devices on a network, enabling communication between devices. 192.168.0.1 Subnet Mask A numeric code used with an IP address to determine the network and host portions of the address. 255.255.255.0 Gateway A network node or device that acts as an access point to connect one network to another, allowing communication between networks. Router: 192.168.0.254 DNS (Domain Name System) A system that translates domain names into IP addresses, enabling users to access websites using familiar domain names.</description>
+    </item>
+    <item>
+      <title>Networking Playlist</title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/playlist/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/playlist/index.html</guid>
+      <description>Networking Playlist Concept Explanation IP Address A unique numerical label assigned to devices on a network, enabling communication between devices. Subnet Mask A numeric code used with an IP address to determine the network and host portions of the address. Gateway A network node or device that acts as an access point to connect one network to another, allowing communication between networks. </description>
+    </item>
+    <item>
+      <title>Networking - OSI Model</title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/osi_model/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/osi_model/index.html</guid>
+      <description>OSI Model The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes and defines the functions of a communication system or network. It helps in understanding how different components of a network interact and communicate with each other. The OSI model consists of seven layers, each serving a specific purpose and providing a set of services to the layer above it. The seven layers of the OSI model are: Certainly!</description>
+    </item>
+    <item>
+      <title>TCP/IP Model </title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/tcp_ip/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/tcp_ip/index.html</guid>
+      <description>TCP/IP Model The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a conceptual framework used to describe the protocols and communication process used on the internet. It is a suite of protocols that define how data is transmitted, routed, and received over the internet. The TCP/IP model consists of four interconnected layers, each responsible for specific tasks:
+Layer Function Protocols/Examples Application Layer Provides network services directly to end-user applications. HTTP, FTP, DNS, SMTP, Telnet Transport Layer Ensures reliable end-to-end delivery of data between applications.</description>
+    </item>
+    <item>
+      <title>TCP Vs UDP </title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/diff_tcp_vs_udp/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/diff_tcp_vs_udp/index.html</guid>
+      <description>Here&amp;rsquo;s a table comparing the main differences between TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
+Feature TCP UDP Connection-oriented or Connectionless Connection-oriented Connectionless Reliability Reliable data delivery with acknowledgments and retransmissions Unreliable data delivery without acknowledgments or retransmissions Ordering Guarantees ordered delivery of data Does not guarantee ordered delivery of data Error Checking Performs error checking using checksums No error checking mechanism Flow Control Implements flow control to prevent overwhelming the receiver No flow control mechanism Congestion Control Implements congestion control to avoid network congestion No congestion control mechanism Overhead Higher overhead due to additional control mechanisms Lower overhead due to minimal control mechanisms Example Applications Web browsing, email, file transfer Streaming media, online gaming, DNS requests The table highlights the key differences between TCP and UDP in terms of their connection-oriented/connectionless nature, reliability, ordering, error checking, flow control, congestion control, overhead, and example applications.</description>
+    </item>
+    <item>
+      <title>DNS Server </title>
+      <link>https://codvatech-labs.github.io/basics-of-networking/dns_server/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codvatech-labs.github.io/basics-of-networking/dns_server/index.html</guid>
+      <description>A DNS (Domain Name System) server is a crucial component of the internet infrastructure that translates domain names into IP addresses. It acts as a directory or a phonebook for the internet, allowing users to access websites using human-readable domain names rather than numerical IP addresses.
+When you enter a domain name in a web browser, such as www.example.com, the DNS server is responsible for converting that domain name into the corresponding IP address, such as 192.</description>
+    </item>
+  </channel>
+</rss>
